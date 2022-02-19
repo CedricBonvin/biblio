@@ -59,6 +59,26 @@
             </div>
        </div>
 
+       <!-- TOP-BAR -->
+       <h2>TOP-BAR</h2>
+       <div class="sectionTopBar">
+           <div class="box">
+                <img class="image" src="../assets/images/top-bar-1.png" alt="header">
+                <img class="image" src="../assets/images/top-bar-1-mobile.png" alt="header">
+                <div class="info">
+                    <p class="title">INFO</p>
+                    <ul>
+                        <li>Responsive</li>
+                        <li>menu mobile slide</li>
+                        <li>Pas de sous-menu</li>
+                    </ul>
+                    <p>layout/top-bar/top-bar-1.vue</p>
+                </div>
+            </div>
+       </div>
+
+
+
     </section>
 </template>
 
@@ -71,10 +91,15 @@ export default {
 }
 </script>
 
-<style lang=scss scoped>
+<style lang="scss" scoped>
+  
     section{
        padding: 20px;
        padding-top: 50px;
+       
+    }
+    h2{
+        padding: 20px 0;
     }
     .headerPrincipal{
         display: flex;
@@ -102,8 +127,9 @@ export default {
     }
     ul{
         margin-left: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 10px; 
     }
+    
     
 
 </style>

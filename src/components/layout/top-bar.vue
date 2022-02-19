@@ -1,10 +1,11 @@
 <template>
-    <div class="topBar">
+    <div class="topBarSite">
         <div class="logo">BIBLIOTHEQUE</div>
         <ul>
             <li><a href="/">layout</a></li>
             <li><a href="#">header</a></li>
             <li><a href="#">citation</a></li>
+            <li><a href="/contact">Contact</a></li>
             <li><a href="test">Test</a></li>
         </ul>
     </div>
@@ -17,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .topBar{
+    .topBarSite{
         position: fixed;
         z-index: 10000;
         width: 100%;

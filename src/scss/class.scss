@@ -1,0 +1,37 @@
+.button{
+    padding: 15px 30px; 
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+
+    
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 15px 5px lightgray;
+    }
+    
+    &_valid{
+        background-color: $button-valid ;
+        color: white;
+        
+        &:hover{
+            background-color: lighten($button-valid, 5%) ;
+        }
+    } 
+    &_danger{
+        background-color: $button-danger;
+        color: white;
+        &:hover{
+            background-color: lighten($button-danger, 5%) ;
+        }
+    } 
+    &_base{
+        background-color: $button-base;
+        color: white;
+        &:hover{
+            background-color: lighten($button-base, 5%) ;
+        }
+    } 
+}
